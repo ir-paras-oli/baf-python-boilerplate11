@@ -1,6 +1,7 @@
 flake8
 pytest==7.4.4
-pandas
+#pandas
+polars
 mock
 pytest-mock
 wheel
