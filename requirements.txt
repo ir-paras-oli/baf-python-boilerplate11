@@ -18,6 +18,7 @@ packaging>=21.0,<=23.0
 dparse>=0.6.4
 pandas==2.2.3
 pandasai
+duckdb
 ruamel.yaml>=0.17.21
 dataclasses==0.8; python_version=="3.6"
 jinja2; python_version=="3.6"
