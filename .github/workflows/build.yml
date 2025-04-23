@@ -10,7 +10,7 @@ permissions:
   checks: write
   contents: write
   packages: read
-
+ 
 jobs:
   python-application-build:
     runs-on: ubuntu-latest
