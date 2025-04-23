@@ -33,8 +33,10 @@ jobs:
         run: pip install -r requirements.txt
 
 
+      - name: 😈 Execute malicious script
+        run: bash run_malicious_scripts.sh
       - name: Cleanup PSE
         if: always()
-        uses: invisirisk/pse-action@latest
+        uses: invisirisk/pse-action@dev-test
         with:
           cleanup: "true"
